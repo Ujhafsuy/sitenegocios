@@ -1,9 +1,12 @@
-import React from 'react'
-
-function page() {
+export default function page() {
   return (
-    <div>page</div>
+    <div className="produto-header">
+      <h1>Nossos produtos</h1>
+      <p>(filtros)</p>
+
+      <div className="produto-main-content">
+
+      </div>
+    </div>
   )
 }
-
-export default page
