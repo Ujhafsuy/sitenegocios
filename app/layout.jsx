@@ -1,4 +1,7 @@
 import Navbar from "@/components/Navbar";
+import  Whatsapp  from '@/components/Whatsapp.jsx'
+import '@/styles/global.css'
+
 
 export const metadata = {
   title: "Site para negócios",
@@ -11,6 +14,7 @@ export default function RootLayout({ children }) {
       <body>
         <Navbar/>
         { children }
+        < Whatsapp  />
       </body>
     </html>
   );
