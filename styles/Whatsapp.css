@@ -1,0 +1,8 @@
+.whatsapp-link{
+    height: 4rem;
+    width: 4rem;
+    position: fixed;
+    top: 80%;
+    left: 80%;
+    border-radius: 100%;
+}
