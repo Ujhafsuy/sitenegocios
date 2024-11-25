@@ -49,7 +49,7 @@ export default function Navbar() {
           <li><Link href="/sobre">Sobre nós</Link></li>
           <li><Link href="/orcamento">Fazer orçamento</Link></li>
           <li><Link href="/produtos">Produtos</Link></li>
-          <li><Link href="/sobre">Contatos</Link></li>
+          <li><Link href="/contatos">Contatos</Link></li>
         </ul>
       </nav>
     </div>

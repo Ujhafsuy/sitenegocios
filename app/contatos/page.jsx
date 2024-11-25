@@ -1,20 +1,28 @@
-import Whatsapp from "@/components/Whatsapp";
+import '@/styles/contatos.css'
+
 
 export default function Contatos() {
     return(
-        <div className="content">
-            <header>Header</header>
+        <div id="content">
             <main>
-                <section>
-                    <h1>Contatos</h1>
-                    <div>
-                        <div></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean malesuada tortor ante, eget ultrices felis porttitor sed. Aenean quis hendrerit neque, sed rutrum neque. Mauris maximus eu nisl eu sollicitudin. Cras at ullamcorper risus. </p>
+                <section className='contato'>
+                    <h1>Como você prefere falar com a gente?</h1>
+                    <div className='redes'>
+                        <div>
+                            <h2>Email</h2>
+                            <a href="#">agente@seunegocio.com</a>
+                        </div>
+                        <div>
+                            <h2>Telefone</h2>
+                            <a href="#">(xx) 111111-1111</a>
+                        </div>
+                        <div>
+                            <h2>Instagram</h2>
+                            <a href="#">@seunegocio</a>
+                        </div>
                     </div>
                 </section>
             </main>
-            <footer>Footer</footer>
-            <Whatsapp/>
         </div>
     );
 }

@@ -1,6 +1,5 @@
 import '@/styles/sobre.css'
-import Image from 'next/image'
-import empresa from '../assets/images/ex-empresa.png'
+
 
 export default function Sobre() {
     return (
@@ -8,7 +7,7 @@ export default function Sobre() {
         <main>
             <section className="main_c_al">
                 <h1>Sua Logo</h1>
-                <Image src={empresa} alt="Imagens da Empresa" />
+                <div className='imagem'></div>
                 <p>Excelência no que fazemos desde 20XX. Esforçados em te entregar o melhor que você merece!</p>
             </section>
             <section className="map">
