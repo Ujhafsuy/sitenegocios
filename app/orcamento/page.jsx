@@ -1,17 +1,12 @@
-import Image from "next/image";
 import '@/styles/orcamento.css'
-import Pb from '../assets/images/ex_pln.jpg'
-
 
 export default function Orcamento() {
     return(
-        <div className="content">
+        <div id="content">
             <main>
                 <section className="apr">
-                    <div>
-                        <Image src={Pb} alt="Imagem"/>
+                        <div className='imagem'></div>
                         <p>Diferenciados no mercado, levamos o nosso negócio ao outro nível.</p>
-                    </div>
                 </section>
                 <section className="cadastro">
                         <p>Para te oferecer as melhores <br/> oportunidades nos fale por onde podemos te contatar.</p>
