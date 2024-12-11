@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import  Whatsapp  from '@/components/Whatsapp.jsx'
+import Footer from "@components/Footer";
 import '@/styles/global.css'
 
 
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
         <Navbar/>
         { children }
         < Whatsapp  />
+        < Footer />
       </body>
     </html>
   );

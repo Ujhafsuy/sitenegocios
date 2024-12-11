@@ -23,7 +23,6 @@ export default function Orcamento() {
                         </form>
                 </section>
             </main>
-            <footer>Footer</footer>
         </div>
     );
 }
