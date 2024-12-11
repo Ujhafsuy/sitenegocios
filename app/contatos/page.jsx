@@ -1,4 +1,4 @@
-import '@/styles/contatos.css'
+import '@styles/contatos.css';
 
 
 export default function Contatos() {
