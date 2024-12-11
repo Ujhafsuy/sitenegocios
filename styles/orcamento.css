@@ -1,4 +1,4 @@
-main{
+.main{
     margin-top: 3rem;
 }
 
@@ -78,7 +78,7 @@ main{
         align-items: center;
     }
 
-    main{
+    .main{
         margin: 0;
 
         display: flex;

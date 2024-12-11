@@ -4,7 +4,7 @@ import '@/styles/contatos.css'
 export default function Contatos() {
     return(
         <div id="content">
-            <main>
+            <main className='main'>
                 <section className='contato'>
                     <h1>Como você prefere falar com a gente?</h1>
                     <div className='redes'>
