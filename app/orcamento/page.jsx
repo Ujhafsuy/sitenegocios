@@ -1,9 +1,9 @@
-import '@/styles/orcamento.css'
+import '@styles/orcamento.css';
 
 export default function Orcamento() {
     return(
         <div id="content">
-            <main>
+            <main className='main-orc'>
                 <section className="apr">
                         <div className='imagem'></div>
                         <p>Diferenciados no mercado, levamos o nosso negócio ao outro nível.</p>

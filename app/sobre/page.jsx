@@ -1,13 +1,13 @@
-import '@/styles/sobre.css'
+import '@styles/sobre.css';
 
 
 export default function Sobre() {
     return (
       <div className="home-div-main">
-        <main>
+        <main className='main-sb'>
             <section className="main_c_al">
                 <h1>Sua Logo</h1>
-                <div className='imagem'></div>
+                <div className='img'></div>
                 <p>Excelência no que fazemos desde 20XX. Esforçados em te entregar o melhor que você merece!</p>
             </section>
             <section className="map">
