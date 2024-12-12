@@ -19,9 +19,36 @@ export default function Navbar() {
       });
     };
 
+    const animateList = () => {
+      if (navList.style.display == ''){
+        navList.style.display = 'flex';
+        navList.style.animation = "navListEntrace 0.3s"
+      }else if (navList.style.display == 'none'){
+        navList.style.display = 'flex'
+        navList.style.animation = "navListEntrace 0.3s" 
+      } else {
+        navList.style.animation = "navListBack 0.3s"
+        setTimeout(() => {
+          navList.style.display = 'none'
+        }, 300)
+      }
+    }
+
     const handleClick = () => {
       navList.classList.toggle(activeClass);
       mobileMenu.classList.toggle(activeClass);
+      if(navList.classList.contains("active")) {
+        window.addEventListener('scroll', () => {
+          const navHeight = document.querySelector('.navbar-content').offsetHeight;
+          const scrollTop = window.scrollY;
+          if (scrollTop > navHeight) {
+              navList.style.transform = "translateY(-3.9931875rem)";
+          } else {
+              navList.style.transform = "translateY(0)";
+          }
+        });
+      }
+      animateList();
       animateLinks();
     };
   
