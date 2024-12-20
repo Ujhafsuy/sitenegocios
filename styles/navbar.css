@@ -49,18 +49,24 @@ nav {
         overflow-x: hidden;
       }
 
+      .navbar-content {
+        display: flex;
+      }
+
       .nav-list {
         display: none;
         position: absolute;
+        margin-top: 0;
         top: 10vh;
         right: 0;
-        width: 60vw;
-        height: 92vh;
+        width: 50%;
+        height: 100%;
         background: #C2C2C2;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-evenly;
         transition: 0.3s;
+        border-radius: 10px;
       }
 
       .nav-list li {
@@ -73,7 +79,7 @@ nav {
     }
 
     .nav-list.active{
-      position: fixed;
+      position: absolute;
     }
     
     @keyframes navLinkFade {
